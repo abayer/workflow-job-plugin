@@ -68,17 +68,24 @@
         <workflow-support-plugin.version>2.14</workflow-support-plugin.version>
         <scm-api-plugin.version>2.1.1</scm-api-plugin.version>
         <git-plugin.version>3.2.0</git-plugin.version>
+        <workflow-step-api.version>2.10</workflow-step-api.version>
+        <workflow-api.version>2.15</workflow-api.version>
+        <workflow-cps.version>2.29</workflow-cps.version>
+        <structs.version>1.6</structs.version>
+        <workflow-basic-steps.version>2.4</workflow-basic-steps.version>
+        <workflow-scm-step.version>2.4</workflow-scm-step.version>
+        <workflow-durable-task-step.version>2.11</workflow-durable-task-step.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-step-api</artifactId>
-            <version>2.10</version>
+            <version>${workflow-step-api.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-api</artifactId>
-            <version>2.15</version>
+            <version>${workflow-api.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
@@ -88,19 +95,19 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-cps</artifactId>
-            <version>2.29</version>
+            <version>${workflow-cps.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>structs</artifactId>
-            <version>1.6</version>
+            <version>${structs.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-basic-steps</artifactId>
-            <version>2.4</version>
+            <version>${workflow-basic-steps.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -113,13 +120,13 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-scm-step</artifactId>
-            <version>2.4</version>
+            <version>${workflow-scm-step.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-durable-task-step</artifactId>
-            <version>2.11</version>
+            <version>${workflow-durable-task-step.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
